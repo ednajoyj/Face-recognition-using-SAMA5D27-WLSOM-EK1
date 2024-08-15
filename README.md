@@ -21,4 +21,7 @@ The OS that we use is Yocto project or Buildroot. The step-by-step guidance is a
 <li>Open Balena Etcher software and select 'Flash from file option'</li>
 <li>Select the Yocto project file that you have dowloaded</li>
 <li>Next, select the target USB Port</li>
+<li>The file will start to flash automatically</li>
 </ul>
+
+## Setting up Putty
