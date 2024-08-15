@@ -3,7 +3,7 @@ This projet is about doing AI Faial recognition using SAMA5D27 WLSOM-EK1 board. 
 
 ## Components needed
 <ul>
-<li>SAMA5D27 WLSOM-EK1</li>
+<li>SAMA5D27 WLSOM-EK1 Board</li>
 <li>SD Card</li>
 <li>Card Reader</li>
 <li>USB Camera</li>
