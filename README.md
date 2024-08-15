@@ -31,6 +31,7 @@ The OS that we use is Yocto project or Buildroot. The step-by-step guidance is a
 </ul>
 Many a times you will face a lot of issues in booting your OS. And moreover you will not havean Os like the windows, instead you will have to work only with a terminal that is supported with putty software.You are supposed to finish all your work with only the terminal.
 
+
 You will also face a lot of issues where you get a kernal panic error and your kernel gets killed automatically. When you face such issues clear all the files, format it from the begining and install the yoct Project from the first. If you still face the same issue try installing Buildroot OS, it is more comfortable to use buidroot than using Yocto Project.
 
 ## Setting up Putty
