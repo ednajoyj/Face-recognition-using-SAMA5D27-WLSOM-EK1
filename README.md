@@ -10,6 +10,7 @@ This projet is about doing AI Faial recognition using SAMA5D27 WLSOM-EK1 board. 
 <li>Jumper wires</li>
 <li>Power cable</li>
 </ul>
+
 ## Booting
 The OS that we use is Yocto project or Buildroot. The step-by-step guidance is as follows:
 <ul>
