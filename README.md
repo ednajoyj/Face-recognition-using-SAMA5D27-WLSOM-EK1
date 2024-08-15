@@ -30,8 +30,16 @@ The OS that we use is Yocto project or Buildroot. The step-by-step guidance is a
 <li>Your board will start booting</li>
 </ul>
 Many a times you will face a lot of issues in booting your OS. And moreover you will not havean Os like the windows, instead you will have to work only with a terminal that is supported with putty software.You are supposed to finish all your work with only the terminal.
-
-
 You will also face a lot of issues where you get a kernal panic error and your kernel gets killed automatically. When you face such issues clear all the files, format it from the begining and install the yoct Project from the first. If you still face the same issue try installing Buildroot OS, it is more comfortable to use buidroot than using Yocto Project.
 
 ## Setting up Putty
+<ul>
+<li>Install the software</li>
+<li>After installation, open the software</li>
+<li>You will be directed to a putty configuration window</li>
+<li>Enter the host name i.e the port that is used or connected to the board</li>
+<li>Set the port number to 115200</li>
+<li>Change the connection type to serial connection</li>
+<li>In the categorypanel, click serial and change the flow control to none</li>
+<li>Finally click the open option and you will be directed to the terminal automatically</li>
+</ul>
