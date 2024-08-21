@@ -45,6 +45,7 @@ You will also face a lot of issues where you get a kernal panic error and your k
 </ul>
 
 ## Issues faced
+After setting up Putty,
 
 
 
