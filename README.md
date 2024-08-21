@@ -43,3 +43,9 @@ You will also face a lot of issues where you get a kernal panic error and your k
 <li>In the categorypanel, click serial and change the flow control to none</li>
 <li>Finally click the open option and you will be directed to the terminal automatically</li>
 </ul>
+
+## Issues faced
+
+
+
+
