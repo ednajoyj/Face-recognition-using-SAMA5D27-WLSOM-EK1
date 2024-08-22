@@ -53,8 +53,11 @@ After setting up Putty, we encountered issues while attempting to install the es
 The steps to be followed to partition the space is as followed: 
 1. Open your Ubuntu
 2. Search for "Disk Utility"
-3. Then you will be asked to enter the 
-4.  
+3. Select the SD card 
+4. Click on the root partition
+5. Click settings icon and select resize
+6. Enter the required space and click OK
+Now the unallocated space will be allocated in root partition.
 
 
 
