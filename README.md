@@ -1,6 +1,6 @@
 # Face-recognition-using-SAMA5D27-WLSOM-EK1
-This project is about doing AI Faial recognition using SAMA5D27 WLSOM-EK1 board. This board is ideal for evaluating and prototyping. It is the board used for industrial
-purpose. This page will guide you to use the board without facing any major issues. 
+This project is about doing AI Facial recognition using SAMA5D27 WLSOM-EK1 board. This board is ideal for evaluating and prototyping and used for industrial
+purpose. This page will guide you to use the board without any issues as we discuss about the major issues that we encountered from the initial stage.
 
 ## Components needed
 <ul>
@@ -14,7 +14,7 @@ purpose. This page will guide you to use the board without facing any major issu
 </ul>
 
 ## Booting
-The OS that we use is Yocto project or Buildroot. The step-by-step guidance is as follows:
+The OS that we used is Yocto project or Buildroot. The step-by-step guidance is as follows:
 <ul>
 <li>Install Balena Etcher software</li>
 <li>install Yocto Project OS manually</li>
@@ -30,18 +30,18 @@ The OS that we use is Yocto project or Buildroot. The step-by-step guidance is a
 <li>A terminal will open, press start button and then the reset button on the board</li>
 <li>Your board will start booting</li>
 </ul>
-Many a times you will face a lot of issues in booting your OS. And moreover you will not havean Os like the windows, instead you will have to work only with a terminal that
+Many a times you will face a lot of issues in booting your OS. And moreover you will not have an OS like Windows, instead you will have to work only with a terminal that
 is supported with putty software.You are supposed to finish all your work with only the terminal.
-You will also face a lot of issues where you get a kernal panic error and your kernel gets killed automatically. When you face such issues clear all the files, format it
-from the begining and install the yoct Project from the first. If you still face the same issue try installing Buildroot OS, it is more comfortable to use buidroot than
-using Yocto Project.
+You will also face a lot of issues where you get a kernel panic error and your kernel may get killed automatically. When you face such issues clear all the files, format it
+from the begining and install the Yocto Project from the first. If you still face the same issue try installing Buildroot OS, it might be comfortable to use buildroot than
+using Yocto Project as you won't encounter Kernel panic attack 
 
 ## Setting up Putty
 <ul>
 <li>Install the software</li>
 <li>After installation, open the software</li>
 <li>You will be directed to a putty configuration window</li>
-<li>Enter the host name i.e the port that is used or connected to the board</li>
+<li>Enter the host name i.e the port that is used or connected to the board
 <li>Set the port number to 115200</li>
 <li>Change the connection type to serial connection</li>
 <li>In the categorypanel, click serial and change the flow control to none</li>
@@ -49,7 +49,16 @@ using Yocto Project.
 </ul>
 
 ## Space partitioning for yocto
-After setting up Putty, we faced a lot of issues while installing  the essential pakages in yoto. we tried to install the pakages in both yocto project and Buildroot software
-The major issues that we enountered was, "No space left" We were unable to install any packages due to inefficient space the space that was alloted was only less than 500Mb
-and most of the space was occupied during the OS installation and only 63MB was left. We were using a total of 8GB SD card and 90% of it was unallocated, only then we came
-to know that we were supposed to partition the unallocated space and mount it in the OS. The steps to be followed to partition the space is as followed:
+After setting up Putty, we encountered issues while attempting to install the essential packages in both Yocto & Builtroot environment. The major issues that we enountered was, "No space left" so we were unable to install any packages due to inefficient storage.  We were using an 8GB SD card and 90% of it was unallocated. Despite, this the error persisted. Later, we came to know about the partition spacing. In default partition only 500Mb was allotted, so the OS that was installed took all the space and left the partition with only 63Mb.So then we were supposed to partition the unallocated space and mount it in the OS. 
+The steps to be followed to partition the space is as followed: 
+1. Open your Ubuntu
+2. Search for "Disk Utility"
+3. Then you will be asked to enter the 
+4.  
+
+
+
+
+
+
+
