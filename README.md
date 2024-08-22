@@ -1,5 +1,6 @@
 # Face-recognition-using-SAMA5D27-WLSOM-EK1
-This projet is about doing AI Faial recognition using SAMA5D27 WLSOM-EK1 board. This board is ideal for evaluating and prototyping. It is the board used for industrial purpose. This page will guide you to use the board without facing any major issues. 
+This projet is about doing AI Faial recognition using SAMA5D27 WLSOM-EK1 board. This board is ideal for evaluating and prototyping. It is the board used for industrial
+purpose. This page will guide you to use the board without facing any major issues. 
 
 ## Components needed
 <ul>
@@ -29,8 +30,11 @@ The OS that we use is Yocto project or Buildroot. The step-by-step guidance is a
 <li>A terminal will open, press start button and then the reset button on the board</li>
 <li>Your board will start booting</li>
 </ul>
-Many a times you will face a lot of issues in booting your OS. And moreover you will not havean Os like the windows, instead you will have to work only with a terminal that is supported with putty software.You are supposed to finish all your work with only the terminal.
-You will also face a lot of issues where you get a kernal panic error and your kernel gets killed automatically. When you face such issues clear all the files, format it from the begining and install the yoct Project from the first. If you still face the same issue try installing Buildroot OS, it is more comfortable to use buidroot than using Yocto Project.
+Many a times you will face a lot of issues in booting your OS. And moreover you will not havean Os like the windows, instead you will have to work only with a terminal that
+is supported with putty software.You are supposed to finish all your work with only the terminal.
+You will also face a lot of issues where you get a kernal panic error and your kernel gets killed automatically. When you face such issues clear all the files, format it
+from the begining and install the yoct Project from the first. If you still face the same issue try installing Buildroot OS, it is more comfortable to use buidroot than
+using Yocto Project.
 
 ## Setting up Putty
 <ul>
@@ -44,9 +48,8 @@ You will also face a lot of issues where you get a kernal panic error and your k
 <li>Finally click the open option and you will be directed to the terminal automatically</li>
 </ul>
 
-## Issues faced
-After setting up Putty,
-
-
-
-
+## Space partitioning for yocto
+After setting up Putty, we faced a lot of issues while installing  the essential pakages in yoto. we tried to install the pakages in both yocto project and Buildroot software
+The major issues that we enountered was, "No space left" We were unable to install any packages due to inefficient space the space that was alloted was only less than 500Mb
+and most of the space was occupied during the OS installation and only 63MB was left. We were using a total of 8GB SD card and 90% of it was unallocated, only then we came
+to know that we were supposed to partition the unallocated space and mount it in the OS. The steps to be followed to partition the space is as followed:
