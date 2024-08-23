@@ -62,12 +62,13 @@ The steps to be followed to partition the space is as followed:
 Now the unallocated space will be allocated in root partition. This is rhe case with Yocto Project.
 to partition the space in Buildroot, you will encounter an error. It is restricted to extend the root's space in buildroot. So as an alternative you have to create a new partition and
 mount it separately. The steps to be folllowed are:
+<ol>
 <li>Open Ubuntu
 <li>open Disk Utility 
 <li>click on the sd card
 <li>select the new partition
 <li>Resize with the required disk space and press ok
-
+</ol>
 
 
 
