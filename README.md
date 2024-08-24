@@ -77,3 +77,5 @@ partition and mount it separately. The steps to be folllowed are:
 <li>select the new partition
 <li>Resize with the required disk space and press ok
 </ol>
+
+ubuntu lts version
