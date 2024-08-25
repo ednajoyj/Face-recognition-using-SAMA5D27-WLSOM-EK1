@@ -78,4 +78,4 @@ partition and mount it separately. The steps to be folllowed are:
 <li>Resize with the required disk space and press ok
 </ol>
 
-ubuntu lts version
+Be specific with the ubuntu version you use. Because only ubuntu's 18th or 21st version will bw supportive (lts version of ubuntu).
