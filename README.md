@@ -83,4 +83,4 @@ partition and mount it separately. The steps to be folllowed are:
 
 Be specific with the ubuntu version you use. Because only ubuntu's 18th or 21st version will bw supportive (lts version of ubuntu).
 A lot of issues were faced to install few packages. 
-The only way to do the installation is Cross-compilling, where the installation and dependencies are done in Ubuntu and the same files are transferred to the sd card and it is booted on the board again. Now we will have all the files needed in the os used in the board
+The only way to do the installation is Cross-compilling, where the installation and dependencies are done in Ubuntu and the same files are transferred to the sd card and it is booted on the board again. Now we will have all the files needed in the OS used in the board.
