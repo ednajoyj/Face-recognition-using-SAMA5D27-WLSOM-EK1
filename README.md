@@ -18,6 +18,9 @@ The OS that we used is Yocto project or Buildroot. The step-by-step guidance is 
 
 <ul>
 <li>Install Balena Etcher software</li>
+<p align=center>
+<img src="C:\Users\James\Pictures\Camera Roll\balena etcher.PNG" width="500" height="300">
+</p>
 <li>install Yocto Project OS manually</li>
 <li>Insert the SD Card reader with the SD Card to the laptop</li>
 <li>Open Balena Etcher software and select 'Flash from file option'</li>
